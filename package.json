@@ -1,0 +1,17 @@
+{
+  "name": "user-management-system",
+  "version": "1.0.0",
+  "description": "Система управления пользователями с администраторским интерфейсом",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "bcrypt": "^5.1.0",
+    "express-session": "^1.17.3"
+  },
+  "author": "Student",
+  "license": "MIT"
+}
